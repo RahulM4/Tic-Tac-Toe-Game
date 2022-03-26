@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/rahul mahto/Desktop/Login/app/src/main/res/layout/activity_main.xml" value="0.1875" />
+        <entry key="..\:/Users/rahul mahto/Desktop/Login/app/src/main/res/layout/activity_mygame.xml" value="0.1875" />
+        <entry key="..\:/Users/rahul mahto/Desktop/Login/app/src/main/res/layout/activity_register.xml" value="0.1875" />
+        <entry key="..\:/Users/rahul mahto/Desktop/Login2/app/src/main/res/drawable/ic_baseline_local_hospital_24.xml" value="0.199609375" />
+        <entry key="..\:/Users/rahul mahto/Desktop/Login2/app/src/main/res/drawable/input_bg.xml" value="0.17222222222222222" />
+        <entry key="..\:/Users/rahul mahto/Desktop/Login2/app/src/main/res/layout/activity_game_page.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/rahul mahto/Desktop/Login2/app/src/main/res/layout/activity_google_sign_in.xml" value="0.25" />
+        <entry key="..\:/Users/rahul mahto/Desktop/Login2/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/rahul mahto/Desktop/Login2/app/src/main/res/layout/activity_mygame.xml" value="0.2" />
+        <entry key="..\:/Users/rahul mahto/Desktop/Login2/app/src/main/res/layout/activity_register.xml" value="0.264" />
+        <entry key="..\:/Users/rahul mahto/Desktop/Login2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.25555555555555554" />
+        <entry key="..\:/Users/rahul mahto/Desktop/Login2/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.25555555555555554" />
+        <entry key="..\:/Users/rahul/OneDrive/Desktop/Apk/tictactoe_and_login/app/src/main/res/layout/activity_main.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

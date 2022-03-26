@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#043656"
+    tools:context=".Mygame">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/bg">
+
+    </ImageView>
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/btn5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/btnimage5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher_background">
+
+        </ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn8"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/btn5"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/btnimage8"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher_background">
+
+        </ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn4"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="-5dp"
+        android:layout_marginTop="14dp"
+        android:layout_toLeftOf="@+id/btn5"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/btnimage4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher_background">
+
+        </ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn6"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="14dp"
+        android:layout_toRightOf="@+id/btn5"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/btnimage6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher_background">
+
+        </ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn2"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="12dp"
+        android:layout_above="@+id/btn5"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/btnimage2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher_background">
+
+        </ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn1"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="-4dp"
+        android:layout_marginTop="12dp"
+        android:layout_toLeftOf="@+id/btn2"
+        android:layout_above="@+id/btn4"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/btnimage1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher_background">
+
+        </ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn3"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="-4dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="-2dp"
+        android:layout_toRightOf="@+id/btn2"
+        android:layout_above="@+id/btn4"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/btnimage3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher_background">
+
+        </ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn7"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="-4dp"
+        android:layout_marginTop="14dp"
+        android:layout_toLeftOf="@+id/btn2"
+        android:layout_below="@+id/btn4"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/btnimage7"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher_background">
+
+        </ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/btn9"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="-4dp"
+        android:layout_marginRight="-4dp"
+        android:layout_marginTop="14dp"
+        android:layout_below="@+id/btn6"
+        android:layout_toRightOf="@+id/btn8"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/btnimage9"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_launcher_background">
+
+        </ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="330dp"
+        android:layout_height="4dp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/btn5"
+        android:background="#C810F0"
+        android:layout_marginBottom="5dp">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="330dp"
+        android:layout_height="4dp"
+        android:layout_below="@+id/btn5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:background="#C810F0">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="4dp"
+        android:layout_height="330dp"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/btn5"
+        android:background="#C810F0"
+        android:layout_marginRight="-14dp">
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="4dp"
+        android:layout_height="330dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/btn5"
+        android:background="#C810F0"
+        android:layout_marginLeft="-14dp">
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/Restart"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btn8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#17A589 "
+        android:text="Restart"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </Button>
+
+
+    <LinearLayout
+        android:id="@+id/dashboard"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@+id/logo"
+        >
+
+        <TextView
+            android:id="@+id/Player1_ScoreX"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Player1(X): "
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/Player2_ScoreO"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Player2(O):"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="@color/white">
+
+        </TextView>
+
+    </LinearLayout>
+
+
+    <View
+        android:id="@+id/v1"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_below="@id/Restart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@color/white">
+
+    </View>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:background="@color/white">
+
+    </View>
+
+    <View
+        android:layout_width="350dp"
+        android:layout_height="4dp"
+        android:layout_below="@id/dashboard"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@color/white">
+
+    </View>
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/v1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Tic-Tac-Toe-Game(OOM MiniProject)"
+        android:textColor="@color/white"
+        android:textSize="18sp">
+
+    </TextView>
+
+
+</RelativeLayout>
